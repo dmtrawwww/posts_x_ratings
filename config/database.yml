@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: pxr_development
+  pool: 5
+  timeout: 5000
+  username: david
+  password: gheWER
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: pxr_test
+  pool: 5
+  timeout: 5000
+  username: david
+  password: gheWER
